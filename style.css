@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo{
+    display: flex;
+    margin: 10px 10px 0 10px;
+    border-radius: 15px 15px  0 0 ;
+    background-image:url("./img/el-hueso-para-perro-textura-fluida-mxwam7.jpg")
+}
+
+
+
+.titulo{
+display: flex;
+flex-direction: column;
+padding: 15px 0   0  18%;
+
+align-items: center;
+justify-content: center;
+font-style: normal;
+}
+.subti{
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+}
+h2{
+    font-size: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+pre{
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    display: flex;
+    font-size: 40px;   
+}
+img{
+    display: block;
+    height: 90%;
+    border-radius: 10px;
+}
+.log{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+
+}
+
+nav{
+    height: 50px;
+    border-radius: 0  0  15px 15px ;
+    margin:  0 10px 0 10px;;
+    background-color:#109482;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 12px;  
+}
+
+nav ul li{
+    float:left;
+    border-right:1px solid white;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 90px;
+}
+nav ul li a:hover{
+    background-color: #67dbdf;
+    transition: background-color .7s;
+  }
+.container{
+    display: flex;
+    height: 55vh
+}
+.art1{
+display: flex;
+flex-direction: column;
+}
+
+.arti1{
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+    height: 50%;
+    margin: 10px 10px 0 10px;   
+    border-radius: 15px 15px  0 0 ;
+    background-color:rgb(245, 245, 175);
+}
+.titu{
+    margin: 10px 0 0 10px;
+}
+.text1{
+    display: flex;
+    flex-direction: row;
+    margin:  5px 15px 15px 10px;;
+    font-size: small;
+}
+
+.dog1{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 0;
+}
+.articulo2{
+    display: flex;
+    width: 95%;
+    height: 45%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 0 0  15px 15px ;
+    background-color:rgb(245, 245, 175);
+
+}
+.t2{
+    margin: 10px 0 0 10px;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    margin:  5px 15px 15px 0;;
+    font-size: small;
+}
+.form{
+    height: 100%;
+    width: 50%;
+
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#109482;
+    height: 27px;
+    font-size: 20px;
+    margin: 10px 10px 0px 10px;
+    padding-top: 10px;
+    border-radius: 15px 15px  0 0 ;
+
+}
+form{
+    height: 85%;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0 0  15px 15px ;
+    background-color:#1f9283;
+}
+p{
+    color: white;
+}
+
+
+.mascota{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+
+}
+#name{
+    height: 20px;
+    width: 40%;
+    margin-left: 50px;
+}
+#edad{
+    height: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+#raza{
+    height: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+#dia{
+    height: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+#hora{
+    height: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+#amo{
+    height: 20px;
+    width: 40%;
+    margin-left: 70px;
+}
+.edad{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13px;
+}
+.raza{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13px;
+}
+.fecha{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13px; 
+}
+.hora{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13px;
+}
+.amo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13px;
+}
+
+button{
+    display: flex;
+    border: 1px dashed rgb(201, 200, 200);
+border-radius: 5px ;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px 8px 40px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+ footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 0px 15px 15px;
+        height: 6em;
+        color: white;
+        margin: 0px 10px 0px 10px;
+        background-color:#108071;
+    }
