@@ -85,7 +85,6 @@ nav ul li a {
 nav ul li a:hover{
     background-color: #67dbdf;
     transition: background-color .7s;
-    height:10px;
   }
 .container{
     display: flex;
